@@ -1,0 +1,10 @@
+{
+    "name": "QR code converter",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "An extension that converts links into QR code to be scanned",
+    "action":{
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    }
+}
