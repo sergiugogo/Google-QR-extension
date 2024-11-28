@@ -1,0 +1,82 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #89cff0; /* Baby blue background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+    background: rgb(35, 158, 229);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px 50px; /* Increased padding for a wider feel */
+    width: 100%; /* Full width */
+    max-width: 600px; /* Wider than before */
+}
+
+.title {
+    font-size: 28px; /* Slightly larger title */
+    font-weight: bold;
+    color: rgb(250, 250, 250);
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #f9f9f9;
+    margin-bottom: 25px;
+}
+
+#link {
+    width: 90%; /* Wider input box */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+#link:focus {
+    border-color: babyblue;
+}
+
+#convert {
+    background-color: babyblue;
+    color: rgb(0, 0, 0); /* Default text color */
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for color change */
+}
+
+#convert:hover {
+    background-color: #0077b6;
+    color: white; /* Text turns white on hover */
+}
+
+#result {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px; /* Taller result area */
+    background-color: #f4f9fc;
+    border: 2px dashed babyblue;
+    border-radius: 10px;
+}
+
+.placeholder {
+    color: #888;
+    font-size: 16px; /* Slightly larger placeholder text */
+}

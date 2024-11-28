@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <title>QR code converter</title>
+    <title>QR Code Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <div class="container">
+        <h1 class="title">QR Code Converter</h1>
+        <p class="subtitle">Convert your links into QR codes effortlessly!</p>
 
-     <input type="text" id ="link" placeholder="Please enter the link"/>
-     <select id="Format">
-        <option value="png">.PNG</option>
-        <option value="jpg">.JPG</option>
-        <option value="jpeg">.JPEG</option>
-        <option value="eps">.EPS</option>
-        <option value="svg">.SVG</option>     
-    </select>
-     <button id="convert"> Convert Link</button>
-     <div id="result">
-          <br>
-          <br>
-     </div>
-     <script src = "main.js"></script>
+        <input type="text" id="link" placeholder="Please enter the link" />
+        <button id="convert">Convert Link</button>
+
+        <div id="result">
+            <p class="placeholder">Your QR code will appear here</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>

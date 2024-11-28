@@ -1,5 +1,4 @@
 const link_to_convert = document.getElementById("link");
-const format = document.getElementById("Format");
 const Convert = document.getElementById("convert");
 const result = document.getElementById("result");
 const API_KEY = "b1lmHGpwLaMNlIeK0nXlnA==I1vnlxkMaFk4NQTD"
