@@ -1,4 +1,4 @@
-```markdown
+
 # QR Code Converter
 
 A lightweight QR Code Converter built as a Chrome extension (and web app) that transforms your links into scannable QR codes. This project uses a free API to generate QR codes on the fly.
